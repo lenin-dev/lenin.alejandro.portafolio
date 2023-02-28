@@ -2,13 +2,18 @@
     font-family: fontPortafolio;
     src: url(../css/font/RammettoOne-Regular.ttf);
 }
+@font-face {
+    font-family: fontPortafolio2;
+    src: url(../css/font/Inconsolata-VariableFont_wdth\,wght.ttf);
+}
 
 * {
     margin: 0%;
 }
 
 body {
-    font-family: fontPortafolio !important;
+    font-family: fontPortafolio2 !important;
+    font-size: 20px !important;
 }
 
 /* -------------------------------------------------MENU----------------------------------------------------- */
@@ -223,13 +228,14 @@ body {
 .portafolio {
     margin-top: -10px;
     position: relative;
-    background-image: linear-gradient(rgba(197, 197, 197, 0.575), 
-    rgba(165, 165, 165, 0.7)), url(../img/imgs/domenico-loia-EhTcC9sYXsw-unsplash.jpg);
+    /* background-color: #e7e7e7; */
+    /* background-image: linear-gradient(rgba(197, 197, 197, 0.575), 
+    rgba(165, 165, 165, 0.7)), url(../img/imgs/domenico-loia-EhTcC9sYXsw-unsplash.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 59rem;
+    padding-bottom: 20rem;
 }
 
 .svg-top-hablididad {
@@ -248,100 +254,89 @@ body {
 }
 
 
-
-
 .cartas {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-
-}
-.cartas div {
-    margin-right: 20px;
-    margin: 0 auto;
+    /* align-items: center; */
+    margin: 20px auto;
 }
 
-.flip-card {
-    background-color: transparent;
-    width: 190px;
-    height: 254px;
-    perspective: 1000px;
-    font-family: sans-serif;
+.card {
+    transition: 0.7s;
+    width: 300px;
+    height: 400px auto !important;
+    background: #07182E;
+    border-radius: 5px;
+    text-align: center;
+    color: #1a1a1a;
+    font-family: fontPortafolio2 !important;
+    z-index: 1;
+    margin: 20px;
 }
-
-.title {
-    font-size: 1.5em;
+  
+.card p {
+    opacity: 0;
+    transition: all 0.5s;
+}
+  
+.heading {
+    color: #07182E;
+    padding-top: 10px;
     font-weight: 900;
-    text-align: center;
-    margin: 0px;
+    font-size: 26px;
 }
 
-.flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
+.cont-card {
+    font-size: 18px;
+    padding: 10px;
 }
-
-.flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
+  
+p svg {
+    padding: 0 5px;
+    cursor: pointer;
 }
-
-.flip-card-back {
-    background: linear-gradient(120deg, rgb(19, 60, 104) 30%, rgb(13, 44, 78) 88%,
-        bisque 40%, rgb(247, 247, 247) 78%);
-    color: white;
-    transform: rotateY(180deg);
+  
+.card:hover h1, .card:hover p {
+    opacity: 1;
 }
-
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
-
-.flip-card-front-1, .flip-card-back {
-    box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
+.icon-svg {
+    margin: 10px;
     position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    border: 1px solid rgb(43, 43, 43);
-    border-radius: 1rem;
+    bottom: 0;
+    right: 0;
 }
 
-.flip-card-front-1 {
-    background-image: url(../img/proyectos/scriptweb-p.000webhostapp.com_.png);
+.icon-svg svg {
+    transition: 0.7s;
+    bottom: 0;
+    width: 35px;
+    height: 35px;
+}
+
+.icon-svg svg:hover{
+    transition: 0.7s;
+    width: 40px;
+    height: 40px;
+}
+
+.card-img-1:hover {
+    color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(rgba(155, 155, 155, 0.712), 
+    rgba(126, 126, 126, 0.541)), url(../img/proyectos/scriptweb-p.000webhostapp.com_.png);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.card-img-2:hover {
+    color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(rgba(167, 167, 167, 0.712), 
+    rgba(148, 148, 148, 0.7)), url(../img/proyectos/Captura\ de\ pantalla\ 2023-02-27\ 184059.png);
     background-position: center;
-    color: coral;
-}
-
-.flip-card-front-2, .flip-card-back {
-    box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    border: 1px solid rgb(43, 43, 43);
-    border-radius: 1rem;
-}
-
-.flip-card-front-2 {
-    background-image: url(../img/proyectos/Captura\ de\ pantalla\ 2023-02-27\ 184059.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    color: coral;
 }
-
 
 
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -450,10 +445,6 @@ body {
     .contenedor-contenido {
         display: none;
     }
-
-    .portafolio {
-        height: 120vh;
-    }
 }
 
 @media (max-width: 375px){
@@ -481,10 +472,6 @@ body {
     }
     .contenedor-contenido {
         display: none;
-    }
-    /* /////////////////////////////////////////////////////// */
-    .portafolio {
-        height: 180vh;
     }
 }
 
@@ -514,7 +501,7 @@ body {
     }
     .contenedor-contenido {
         display: none;
-    } 
+    }
 }
 
 /* --------------------------------------- */
