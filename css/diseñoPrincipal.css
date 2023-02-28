@@ -18,6 +18,10 @@ body {
     background-color: rgba(39, 39, 39, 0.692) !important;
 }
 
+.font-size {
+    font-size: 15px !important;
+}
+
 
 /* -------------------------------------------PARTE DEL SLIDER----------------------------------------------- */
 
@@ -42,10 +46,10 @@ body {
     width: 100%;
 }
 
-/* .carousel {
+.carousel {
     position: relative !important;
     align-items: center;
-} */
+}
 
 /* ------------------------------------------PARTE DE LA DESCRIPCION----------------------------------------- */
 
@@ -90,12 +94,252 @@ body {
     color: darkgoldenrod;
 }
 
-/* -----------------------------------------------MAIN------------------------------------------------------- */
+/* --------------------------------------------SOBRE MI----------------------------------------------------- */
+
+.download-button {
+    position: relative;
+    border-width: 0;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 4px;
+    z-index: 1;
+}
+   
+.download-button .docs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    min-height: 40px;
+    padding: 0 10px;
+    border-radius: 4px;
+    z-index: 1;
+    background-color: #242a35;
+    border: solid 1px #e8e8e82d;
+    transition: all .5s cubic-bezier(0.77, 0, 0.175, 1);
+}
+   
+.download-button:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+   
+.download {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    margin: 0 auto;
+    z-index: -1;
+    border-radius: 4px;
+    transform: translateY(0%);
+    background-color: #01a1e0;
+    border: solid 1px #01e0572d;
+    transition: all .5s cubic-bezier(0.77, 0, 0.175, 1);
+}
+   
+.download-button:hover .download {
+    transform: translateY(100%)
+}
+   
+.download svg polyline,.download svg line {
+    animation: docs 1s infinite;
+}
+   
+@keyframes docs {
+    0% {
+     transform: translateY(0%);
+    }
+   
+    50% {
+     transform: translateY(-15%);
+    }
+   
+    100% {
+     transform: translateY(0%);
+    }
+}
+
+/* -------------------------------------------HABILIDADES--------------------------------------------------- */
 
 .color-contenedor {
+    margin-top: -10px;
     background-color: #303644;
     color: rgb(240, 240, 240);
+    width: 100%;
+}
 
+.fila {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.flex-col {
+    flex: 1 1 auto;
+    margin: 20px;
+}
+
+.flex-items {
+    width: 150px;
+    margin: 0 auto;
+}
+
+.custom-popover-basico {
+    --bs-popover-max-width: 200px;
+    --bs-popover-border-color: var(--bs-primary) !important;
+    --bs-popover-header-bg: var(--bs-primary) !important;
+    --bs-popover-header-color: var(--bs-white) !important;
+    --bs-popover-body-padding-x: 1rem;
+    --bs-popover-body-padding-y: .5rem;
+}
+.custom-popover-intermedio {
+    --bs-popover-max-width: 200px;
+    --bs-popover-border-color: var(--bs-warning) !important;
+    --bs-popover-header-bg: var(--bs-warning) !important;
+    --bs-popover-header-color: var(--bs-white) !important;
+    --bs-popover-body-padding-x: 1rem;
+    --bs-popover-body-padding-y: .5rem;
+}
+.custom-popover-alto {
+    --bs-popover-max-width: 200px;
+    --bs-popover-border-color: var(--bs-danger) !important;
+    --bs-popover-header-bg: var(--bs-danger) !important;
+    --bs-popover-header-color: var(--bs-white) !important;
+    --bs-popover-body-padding-x: 1rem;
+    --bs-popover-body-padding-y: .5rem;
+}
+
+.cont-svg-icon {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+
+}
+
+/* -------------------------------------------PORTAFOLIO--------------------------------------------------- */
+
+.portafolio {
+    margin-top: -10px;
+    position: relative;
+    background-image: linear-gradient(rgba(197, 197, 197, 0.575), 
+    rgba(165, 165, 165, 0.7)), url(../img/imgs/domenico-loia-EhTcC9sYXsw-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 59rem;
+}
+
+.svg-top-hablididad {
+    margin-top: -10px;
+    position: static;
+    top: 0;
+    width: 100%;
+}
+
+.svg-botton-hablididad {
+    margin-top: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: -10px;
+}
+
+
+
+
+.cartas {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+.cartas div {
+    margin-right: 20px;
+    margin: 0 auto;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 190px;
+    height: 254px;
+    perspective: 1000px;
+    font-family: sans-serif;
+}
+
+.title {
+    font-size: 1.5em;
+    font-weight: 900;
+    text-align: center;
+    margin: 0px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-back {
+    background: linear-gradient(120deg, rgb(19, 60, 104) 30%, rgb(13, 44, 78) 88%,
+        bisque 40%, rgb(247, 247, 247) 78%);
+    color: white;
+    transform: rotateY(180deg);
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+.flip-card-front-1, .flip-card-back {
+    box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: 1px solid rgb(43, 43, 43);
+    border-radius: 1rem;
+}
+
+.flip-card-front-1 {
+    background-image: url(../img/proyectos/scriptweb-p.000webhostapp.com_.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: coral;
+}
+
+.flip-card-front-2, .flip-card-back {
+    box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: 1px solid rgb(43, 43, 43);
+    border-radius: 1rem;
+}
+
+.flip-card-front-2 {
+    background-image: url(../img/proyectos/Captura\ de\ pantalla\ 2023-02-27\ 184059.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: coral;
 }
 
 
@@ -151,11 +395,11 @@ body {
 
 @media (max-width: 992px){
     .img1 {
-        height: 70vh;
+        height: 60vh;
         width: 100%;
     }
     .img2 {
-        height: 70vh;
+        height: 60vh;
         width: 100%;
     }
     /* /////////////////////////////////////////////////////// */
@@ -171,7 +415,7 @@ body {
     }
     .contenedor-titulo p {
         font-size: 18px;
-        width: 40em;
+        width: 20em;
     }
     .contenedor-contenido {
         width: auto;
@@ -205,7 +449,11 @@ body {
     }
     .contenedor-contenido {
         display: none;
-    } 
+    }
+
+    .portafolio {
+        height: 120vh;
+    }
 }
 
 @media (max-width: 375px){
@@ -233,7 +481,11 @@ body {
     }
     .contenedor-contenido {
         display: none;
-    } 
+    }
+    /* /////////////////////////////////////////////////////// */
+    .portafolio {
+        height: 180vh;
+    }
 }
 
 @media (max-width: 320px){

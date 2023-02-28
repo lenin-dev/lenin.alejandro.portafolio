@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./css/diseñoPrincipal.css">
 
-    <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,16 +27,19 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item">
-                          <a class="nav-link active text-light fw-bold mx-3" aria-current="page" href="#">INICIO</a>
+                          <a class="nav-link active text-light fw-bold mx-3 font-size" aria-current="page" href="#">INICIO</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link active text-light fw-bold mx-3" href="#">HABILIDADES</a>
+                            <a class="nav-link active text-light fw-bold mx-3 font-size" href="#">SOBRE MI</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link active text-light fw-bold mx-3" href="#">PORTAFOLIO</a>
+                          <a class="nav-link active text-light fw-bold mx-3 font-size" href="#">HABILIDADES</a>
+                        </li>
+                        <li class="nav-item">   
+                          <a class="nav-link active text-light fw-bold mx-3 font-size" href="#">PORTAFOLIO</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link active text-light fw-bold mx-3" href="#">CONTACTO</a>
+                          <a class="nav-link active text-light fw-bold mx-3 font-size" href="#">CONTACTO</a>
                         </li>
                     </ul>
                 </div>
@@ -51,34 +54,189 @@
                 <p><span class="typed"></span></p>
             </div>
             <div class="contenedor-contenido text-center text-break">
-                <p>Me llamó Lenin Alejandro soy desarrollador web backend, pero actualmente trabajo como 
-                    freelance y también sé un poco de frontend. Soy responsable, apasionado por la programación 
-                    web, aprendo rápido y en constante aprendizaje para mejorar y aprender las nuevas 
-                    tecnologías y brindar un servicio de calidad a los usuarios o la empresa.</p>
+                <p>Me llamo <span class="text-danger text-uppercase">Lenin Alejandro </span>
+                    <span class="text-warning"> - </span>
+                    <span class="text-info text-uppercase">Lic. Ciencias y tecnologías de la información</span>.
+                </p>
             </div>
         </section>
     </header>
     <!-- --------------------------------- -->
     <article>
-        <section class="color-contenedor">
-            <div class="container pt-5 pb-2">
-                <h5>HABILIDADES</h5>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path fill="#ffffff" d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"/></svg>
+        <section class="container mt-5 mb-4">
+            <h5>SOBRE MI</h5>
+            <div>
+                <ul>
+                    <li class="nav-link my-2"><span class="fw-bold text-primary">Nombre:</span> Lenin Alejandro De la o Serna.</li>
+                    <li class="nav-link my-2"><span class="fw-bold text-primary">Edad:</span> 23 años.</li>
+                    <li class="nav-link my-2"><span class="fw-bold text-primary">Grado:</span> Lic. Ciencias y tecnologías de la información.</li>
+                    <li class="nav-link my-2"><span class="fw-bold text-primary">Cédula:</span> En proceso.</li>
+                    <li class="nav-link my-2"><span class="fw-bold text-primary">Dirección:</span> Acapulco, Gro.</li>
+                    <li class="nav-link my-2"><span class="fw-bold text-primary">Descripción:</span>  
+                        <p>
+                            Actualmente trabajo como <span class="text-info">freelance</span>. Sé de 
+                            <span class="text-warning">frontend</span> y <span class="text-danger">backend</span>,
+                            pero me gustaría un puesto como <span class="text-danger">desarrollador web backend</span>, 
+                            pero sin ningun problema para trabajar como <span class="text-warning">frontend</span> y <span class="text-danger">backend</span>
+                            Soy responsable, trabajo en equipo, apasionado por la programación web, aprendo rápido 
+                            y en constante aprendizaje para mejorar y aprender las nuevas 
+                            tecnologías y brindar un servicio de calidad a los usuarios o la empresa.
+                        </p>
+                    </li>
+                    <li class="nav-link my-2"> 
+                        <button class="download-button">
+                            <div class="docs"><svg class="css-i6dzq1" stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-width="2" stroke="currentColor" height="20" width="20" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line y2="13" x2="8" y1="13" x1="16"></line><line y2="17" x2="8" y1="17" x1="16"></line><polyline points="10 9 9 9 8 9"></polyline></svg> CV</div>
+                            <div class="download">
+                                <a href="#pdf" download="SLee Dw">
+                                    <svg class="css-i6dzq1" stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-width="2" stroke="currentColor" height="24" width="24" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line y2="3" x2="12" y1="15" x1="12"></line></svg>
+                                </a>
+                            </div>
+                        </button>
+                    </li>
+                </ul>
             </div>
         </section>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#303644" fill-opacity="1" d="M0,192L48,176C96,160,192,128,288,117.3C384,107,480,117,576,149.3C672,181,768,235,864,240C960,245,1056,203,1152,160C1248,117,1344,75,1392,53.3L1440,32L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>        </section>
+        <!--  -->
+        <svg class="svg-top-sobremi" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#303644" fill-opacity="1" d="M0,64L48,96C96,128,192,192,288,208C384,224,480,192,576,149.3C672,107,768,53,864,48C960,43,1056,85,1152,117.3C1248,149,1344,171,1392,181.3L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>        <!--  -->
+        <section class="color-contenedor">
+            <div class="container pt-5 pb-2">
+                <h5>HABILIDADES Y CONOCIMIENTOS</h5>
+                <div class="fila text-center mt-5">
+                    <div class="flex-col my-3">
+                        <p>LENGUAJES</p>
+                        <div class="flex-items text-center">
+                            <a tabindex="0" role="button" class="bg-transparend"
+                                data-bs-toggle="popover" data-bs-placement="top"
+                                data-bs-trigger="focus"
+                                data-bs-custom-class="custom-popover-basico"
+                                data-bs-title="HTML nivel básico">
+                                <img src="img/icon/html.png" class="cont-svg-icon">
+                            </a>
+                            <a tabindex="0" role="button" class="bg-transparend"
+                                data-bs-toggle="popover" data-bs-placement="right"
+                                data-bs-trigger="focus"
+                                data-bs-custom-class="custom-popover-basico"
+                                data-bs-title="CSS nivel básico"
+                                data-bs-content="Responsive design flexbox, grid y bootstrap">
+                                <img src="img/icon/css-3.png" class="cont-svg-icon">
+                            </a>
+                            <a tabindex="0" role="button" class="bg-transparend"
+                                data-bs-toggle="popover" data-bs-placement="right"
+                                data-bs-trigger="focus"
+                                data-bs-custom-class="custom-popover-intermedio"
+                                data-bs-title="JS nivel básico-intermedio"
+                                data-bs-content="Peticiones async, await- XMLHttpRequest, creación de etiquetas en el DOM y obtención de datos json">
+                                <img src="img/icon/js.png" class="cont-svg-icon">
+                            </a>
+                            <a tabindex="0" role="button" class="bg-transparend"
+                                data-bs-toggle="popover" data-bs-placement="right"
+                                data-bs-trigger="focus"
+                                data-bs-custom-class="custom-popover-intermedio"
+                                data-bs-title="PHP nivel básico-intermedio"
+                                data-bs-content="Manejo de sesiones, consultas CRUD, respuesta a js en json.">
+                                <img src="img/icon/php.png" class="cont-svg-icon">
+                            </a>
+                            <a tabindex="0" role="button" class="bg-transparend"
+                                data-bs-toggle="popover" data-bs-placement="right"
+                                data-bs-trigger="focus"
+                                data-bs-custom-class="custom-popover-basico"
+                                data-bs-title="SQL-MYSQL nivel básico"
+                                data-bs-content="Creación de tablas, relaciones y consultas simples.">
+                                <img src="img/icon/sql.png" class="cont-svg-icon">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex-col my-3">
+                        <p>DISEÑO Y MÁS</p>
+                        <div class="flex-items text-center">
+                            <a tabindex="0" role="button" class="bg-transparend"
+                                data-bs-toggle="popover" data-bs-placement="right"
+                                data-bs-trigger="focus"
+                                data-bs-custom-class="custom-popover-basico"
+                                data-bs-title="PHOTO SHOP nivel básico">
+                                <img src="img/icon/photoshop.png" class="cont-svg-icon">
+                            </a>
+                            <a tabindex="0" role="button" class="bg-transparend"
+                                data-bs-toggle="popover" data-bs-placement="right"
+                                data-bs-trigger="focus"
+                                data-bs-custom-class="custom-popover-basico"
+                                data-bs-title="SCRUM nivel básico">
+                                <img src="img/icon/scrum.png" class="cont-svg-icon">
+                            </a>
+                            <a tabindex="0" role="button" class="bg-transparend"
+                                data-bs-toggle="popover" data-bs-placement="right"
+                                data-bs-trigger="focus"
+                                data-bs-custom-class="custom-popover-basico"
+                                data-bs-title="Maquetación con MIRO nivel básico">
+                                <img src="img/icon/sensible.png" class="cont-svg-icon">
+                            </a>
+                            <a tabindex="0" role="button" class="bg-transparend"
+                                data-bs-toggle="popover" data-bs-placement="right"
+                                data-bs-trigger="focus"
+                                data-bs-custom-class="custom-popover-intermedio"
+                                data-bs-title="GITHUB nivel básico-intermedio">
+                                <img src="img/icon/github.png" class="cont-svg-icon">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex-col my-3" hidden>
+                        <p>CURSOS (EN PROCESO)</p>
+
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <!-- Parte de la curva -->
+        <section class="portafolio">
+            <svg class="svg-top-hablididad" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#303644" fill-opacity="1" d="M0,192L48,176C96,160,192,128,288,117.3C384,107,480,117,576,149.3C672,181,768,235,864,240C960,245,1056,203,1152,160C1248,117,1344,75,1392,53.3L1440,32L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+            <div class="container">
+                <h5>PORTAFOLIO</h5>
+                <div class="cartas">
+                    <div class="flip-card mt-5">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front-1">
+                                <p class="title"></p>
+                                <p></p>
+                            </div>
+                            <div class="flip-card-back">
+                                <p class="title">ScriptWeb</p>
+                                <p>Leave Me</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card mt-5">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front-2">
+                                <p class="title"></p>
+                                <p></p>
+                            </div>
+                            <div class="flip-card-back">
+                                <p class="title">Nutri Cosmetic</p>
+                                <p>Leave Me</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            <svg class="svg-botton-hablididad" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#303644" fill-opacity="1" d="M0,64L48,64C96,64,192,64,288,80C384,96,480,128,576,160C672,192,768,224,864,245.3C960,267,1056,277,1152,266.7C1248,256,1344,224,1392,208L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+        </section>
     </article>
     <!-- --------------------------------- -->
     <footer>
 
     </footer>
 
+    <!-- BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    
     <!-- CDN DE TYPE SCRIPT -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
-    <!-- BOOTSTRAP -->
-    <script src="bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
-
     <script src="js/configuracion-typed.js"></script>
+    <script src="js/principal.js"></script>
 </body>
 </html>
