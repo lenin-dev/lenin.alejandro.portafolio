@@ -1,0 +1,18 @@
+{
+    "1": {
+        "clave": "1",
+        "nombre": "ScriptWeb",
+        "icono": "img/proyectos/logoIconSinFondo.png",
+        "imagen1": "img/proyectos/scriptweb-p.000webhostapp.com_.png",
+        "imagen2": "",
+        "gif": ""
+    },
+    "2": {
+        "clave": "2",
+        "nombre": "Nutri Cosmetic - Rosy",
+        "icono": "img/proyectos/iconotienda.png",
+        "imagen1": "img/proyectos/Captura de pantalla 2023-02-27 184059.png",
+        "imagen2": "",
+        "gif": ""
+    }
+}
