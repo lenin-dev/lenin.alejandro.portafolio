@@ -388,7 +388,7 @@ nav.scrolling {
     margin-bottom: 30px;
     border-radius: 25px;
     border: none;
-    margin-top: 2em;
+    margin-top: 1em;
     font-weight: bold;
     background: #ffffff;
     color: rgb(0, 0, 0);
@@ -399,6 +399,29 @@ nav.scrolling {
     background: rgb(36, 116, 221);
     color: white;
   }
+
+  /* modal - carusel */
+.fondo-boton {
+    background-color: #07182e93 !important;
+}
+
+.fondo-boton:hover {
+    background-color: #07182e;
+}
+
+.icon-svg-portafolio {
+    transition: 0.7s;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+a .icon-svg-portafolio:hover {
+    transition: 0.7s;
+    transform: scale(0.75);
+}
+
 
 /* ---------------------------------------------CONTACTO----------------------------------------------------- */
 

@@ -1,0 +1,22 @@
+{
+    "0": {
+        "clave": "0",
+        "nombre": "ScriptWeb",
+        "icono": "./img/proyectos/logoIconSinFondo.png",
+        "pagina": "http://scriptweb-p.000webhostapp.com/",
+        "github": "https://github.com/lenin2499/ScriptWeb_page",
+        "imagen1": "img/proyectos/scriptweb2.png",
+        "imagen2": "img/proyectos/scriptweb1.png",
+        "description": "Página desarrollada con html5, css3 y js. Además de utilizar bootstrap, ajax XMLHttpRequest, animaciones, optimización de imágenes y de código."
+    },
+    "1": {
+        "clave": "1",
+        "nombre": "Nutri Cosmetic - Rosy",
+        "icono": "img/proyectos/iconotienda.png",
+        "pagina": "https://nutricosmetic-rosy.000webhostapp.com/",
+        "github": "https://github.com/lenin2499/nutricosmetic_rosy",
+        "imagen1": "img/proyectos/nutri1.png",
+        "imagen2": "img/proyectos/nutricosmetic-rosy2.png",
+        "description": "Página realizada con html5, css3, js, php y mysql. Además de utilizar consultas CRUD asincronas ajax XMLHttpRequest, recepción y enviado de datos json de php para procesar en js, sesiones, bootstrap y manejo de imagenes copiadas a la carpeta raíz del server."
+    }
+}
