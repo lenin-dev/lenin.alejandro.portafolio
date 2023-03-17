@@ -23,7 +23,6 @@ function carga() {
     http.onreadystatechange = function() {
         if(this.readyState == 4 && this.status == 200) {
             var arreglo = JSON.parse(this.responseText);
-            console.log(arreglo);
 
             var cartas = document.getElementById('cartas');
 
