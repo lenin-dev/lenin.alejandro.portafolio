@@ -7,7 +7,7 @@
         "github": "https://github.com/lenin2499/ScriptWeb_page",
         "imagen1": "img/proyectos/scriptweb2.png",
         "imagen2": "img/proyectos/scriptweb1.png",
-        "description": "Página desarrollada con html5, css3 y js. Además de utilizar bootstrap, ajax XMLHttpRequest, animaciones, optimización de imágenes y de código."
+        "description": "Página desarrollada con html5, css3 y js. Además de utilizar bootstrap, ajax XMLHttpRequest, json, animaciones, optimización de imágenes y de código."
     },
     "1": {
         "clave": "1",
