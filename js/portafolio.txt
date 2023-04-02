@@ -19,7 +19,7 @@
         "imagen2": "img/proyectos/nutricosmetic-rosy2.png",
         "description": "Página realizada con html5, css3, js, php y mysql. Además de utilizar consultas CRUD asincronas ajax XMLHttpRequest, recepción y enviado de datos json de php para procesar en js, sesiones, bootstrap y manejo de imagenes copiadas a la carpeta raíz del server."
     },
-    "": {
+    "2": {
         "clave": "2",
         "nombre": "Proyecto de sesiones",
         "icono": "img/proyectos/idea.png",
