@@ -23,7 +23,7 @@
         "clave": "2",
         "nombre": "Proyecto de sesiones",
         "icono": "img/proyectos/idea.png",
-        "pagina": "prueba-sesiones.infinityfreeapp.com/",
+        "pagina": "http://prueba-sesiones.infinityfreeapp.com/",
         "github": "https://github.com/lenin2499/portafolio-Proyecto-Session",
         "imagen1": "img/proyectos/capturaLoginAndRegistro.png",
         "imagen2": "img/proyectos/CapturaPrincipal.png",
