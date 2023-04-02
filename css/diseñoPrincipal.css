@@ -98,9 +98,7 @@ nav.scrolling {
 
 .imgL:hover {
     transition: 0.7s;
-    -webkit-box-shadow: 0px 0px 41px -1px rgba(217,217,217,1);
-    -moz-box-shadow: 0px 0px 41px -1px rgba(217,217,217,1);
-    box-shadow: 0px 0px 41px -1px rgba(217,217,217,1);
+    transform: scale(1.15);
 }
 
 .type-script {
