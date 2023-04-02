@@ -18,5 +18,15 @@
         "imagen1": "img/proyectos/nutri1.png",
         "imagen2": "img/proyectos/nutricosmetic-rosy2.png",
         "description": "Página realizada con html5, css3, js, php y mysql. Además de utilizar consultas CRUD asincronas ajax XMLHttpRequest, recepción y enviado de datos json de php para procesar en js, sesiones, bootstrap y manejo de imagenes copiadas a la carpeta raíz del server."
+    },
+    "": {
+        "clave": "2",
+        "nombre": "Proyecto de sesiones",
+        "icono": "img/proyectos/idea.png",
+        "pagina": "https://http://prueba-sesiones.infinityfreeapp.com/",
+        "github": "https://github.com/lenin2499/portafolio-Proyecto-Session",
+        "imagen1": "img/proyectos/capturaLoginAndRegistro.png",
+        "imagen2": "img/proyectos/CapturaPrincipal.png",
+        "description": "Página echa como medio para reforzar mi de backend haciendo una aplicación web donde administra usuarios con métodos CRUD, utilizando html, css, js, php y mysql"
     }
 }
