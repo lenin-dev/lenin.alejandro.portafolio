@@ -34,9 +34,8 @@ function carga() {
                         div1.setAttribute("class", "img");
                     var img = document.createElement('img');
                         img.setAttribute("id", "img-icon");
+                        img.setAttribute("class", "imagen-icon-portafolio");
                         img.setAttribute("src", arreglo[i].icono);
-                        img.setAttribute("width", "100");
-                        img.setAttribute("height", "100");
                     div1.appendChild(img);
 
                     var span = document.createElement('span');

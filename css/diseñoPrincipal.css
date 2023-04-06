@@ -292,6 +292,12 @@ nav.scrolling {
 
 /* -------------------------------------------PORTAFOLIO--------------------------------------------------- */
 
+.imagen-icon-portafolio {
+    width: 80px;
+    height: 80px;
+    margin: 8px;
+}
+
 .portafolio {
     margin-top: -10px;
     position: relative;
