@@ -29,7 +29,7 @@
         "imagen2": "img/proyectos/CapturaPrincipal.png",
         "description": "Página echa como medio para reforzar mi de backend haciendo una aplicación web donde administra usuarios con métodos CRUD, utilizando html, css, js, php y mysql"
     },
-    "": {
+    "3": {
         "clave": "3",
         "nombre": "Proyecto editor de archivos .txt",
         "icono": "img/proyectos/txt.png",
@@ -37,6 +37,6 @@
         "github": "https://github.com/lenin2499/portafolio-Editor-texto",
         "imagen1": "img/proyectos/editor_texto_principal.png",
         "imagen2": "img/proyectos/mostrar_texto.png",
-        "description": "Proyecto realizado con un poco de html, css, js con metodos http comunes e implementacion asincrona xmlhttprequest y principalmente php para el CRUD."
+        "description": "Proyecto realizado para crear una API REST sencilla con html, css, js (XMLHTTpRequest) y php."
     }
 }
