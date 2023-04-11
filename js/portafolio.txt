@@ -29,7 +29,7 @@
         "imagen2": "img/proyectos/CapturaPrincipal.png",
         "description": "Página echa como medio para reforzar mi de backend haciendo una aplicación web donde administra usuarios con métodos CRUD, utilizando html, css, js, php y mysql"
     },
-    "3": {
+    "": {
         "clave": "3",
         "nombre": "Proyecto editor de archivos .txt",
         "icono": "img/proyectos/txt.png",
