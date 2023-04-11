@@ -33,7 +33,7 @@
         "clave": "3",
         "nombre": "Proyecto editor de archivos .txt",
         "icono": "img/proyectos/txt.png",
-        "pagina": "http://editortexto.infinityfreeapp.com",
+        "pagina": "http://editortexto.000webhostapp.com/",
         "github": "https://github.com/lenin2499/portafolio-Editor-texto",
         "imagen1": "img/proyectos/editor_texto_principal.png",
         "imagen2": "img/proyectos/mostrar_texto.png",
