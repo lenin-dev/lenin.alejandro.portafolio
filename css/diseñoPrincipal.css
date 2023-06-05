@@ -44,7 +44,7 @@ nav.scrolling {
 
 .img1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.575), 
-    rgba(0, 0, 0, 0.7)), url(../img/slider/img1.jpg);
+    rgba(0, 0, 0, 0.7)), url(../img/slider/img1.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -54,7 +54,7 @@ nav.scrolling {
 
 .img2 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.575), 
-    rgba(0, 0, 0, 0.5)), url(../img/slider/img2.jpg);
+    rgba(0, 0, 0, 0.5)), url(../img/slider/img2.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -282,7 +282,7 @@ nav.scrolling {
 }
 
 .img-hobbie {
-    background-image: url(../img/imgs/nadine-shaabana-YsPnamiHdmI-unsplash.jpg);
+    background-image: url(../img/imgs/nadine-shaabana-yspnamihdmi-unsplash.webp);
     background-repeat: no-repeat;
     background-position: center;
     width: 30rem;
