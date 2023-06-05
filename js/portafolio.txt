@@ -35,8 +35,8 @@
         "icono": "img/proyectos/txt.webp",
         "pagina": "http://editortexto.000webhostapp.com/",
         "github": "https://github.com/lenin2499/portafolio-Editor-texto",
-        "imagen1": "img/proyectos/editor_texto_principal.webp",
-        "imagen2": "img/proyectos/mostrar_texto.webp",
+        "imagen1": "img/proyectos/editor-texto-principal.webp",
+        "imagen2": "img/proyectos/mostrar-texto.webp",
         "description": "Proyecto realizado para crear una API REST sencilla editando archivos .txt con html, css, js (XMLHTTpRequest) y php."
     }
 }
