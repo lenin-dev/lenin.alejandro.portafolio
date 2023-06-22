@@ -4,7 +4,7 @@
         "nombre": "ScriptWeb",
         "icono": "img/proyectos/logoiconsinfondo.webp",
         "pagina": "http://scriptweb-p.000webhostapp.com/",
-        "github": "https://github.com/lenin2499/ScriptWeb_page",
+        "github": "https://github.com/lenin-dev/ScriptWeb_page",
         "imagen1": "img/proyectos/scriptweb2.webp",
         "imagen2": "img/proyectos/scriptweb1.webp",
         "description": "Página desarrollada con html5, css3 y js. Además de utilizar bootstrap, ajax XMLHttpRequest, json, animaciones, optimización de imágenes y de código."
@@ -14,7 +14,7 @@
         "nombre": "Nutri Cosmetic - Rosy",
         "icono": "img/proyectos/iconotienda.webp",
         "pagina": "https://nutricosmetic-rosy.000webhostapp.com/",
-        "github": "https://github.com/lenin2499/nutricosmetic_rosy",
+        "github": "https://github.com/lenin-dev/nutricosmetic_rosy",
         "imagen1": "img/proyectos/nutri1.webp",
         "imagen2": "img/proyectos/nutricosmetic-rosy2.webp",
         "description": "Página realizada con html5, css3, js, php y mysql. Además de utilizar consultas CRUD asincronas ajax XMLHttpRequest, recepción y enviado de datos json de php para procesar en js, sesiones, bootstrap y manejo de imagenes copiadas a la carpeta raíz del server."
@@ -24,7 +24,7 @@
         "nombre": "Proyecto de sesiones",
         "icono": "img/proyectos/idea.webp",
         "pagina": "http://prueba-sesiones.infinityfreeapp.com/",
-        "github": "https://github.com/lenin2499/portafolio-Proyecto-Session",
+        "github": "https://github.com/lenin-dev/portafolio-Proyecto-Session",
         "imagen1": "img/proyectos/capturaLoginAndRegistro.webp",
         "imagen2": "img/proyectos/CapturaPrincipal.webp",
         "description": "Página echa como medio para reforzar mi de backend haciendo una aplicación web donde administra usuarios con métodos CRUD, utilizando html, css, js, php y mysql"
@@ -34,7 +34,7 @@
         "nombre": "Proyecto editor de archivos .txt",
         "icono": "img/proyectos/txt.webp",
         "pagina": "http://editortexto.000webhostapp.com/",
-        "github": "https://github.com/lenin2499/portafolio-Editor-texto",
+        "github": "https://github.com/lenin-dev/portafolio-Editor-texto",
         "imagen1": "img/proyectos/editor-texto-principal.webp",
         "imagen2": "img/proyectos/mostrar-texto.webp",
         "description": "Proyecto realizado para crear una API REST sencilla editando archivos .txt con html, css, js (XMLHTTpRequest) y php."
