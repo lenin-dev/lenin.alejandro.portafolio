@@ -340,6 +340,11 @@ nav.scrolling {
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
   }
+
+  .card:hover {
+    transition: 0.7s;
+    transform: scale(1.02);
+  }
   
   .card span {
     font-weight: bold;
@@ -650,7 +655,7 @@ a .icon-svg-portafolio:hover {
     }
     /* /////////////////////////////////////////////////////// */
     .img-hobbie {
-        background-image: url(../img/imgs/nadine-shaabana-YsPnamiHdmI-unsplash.jpg);
+        background-image: url(../img/imgs/nadine-shaabana-yspnamihdmi-unsplash.webp);
         background-size: cover;
         width: 13rem;
         height: 8rem;
