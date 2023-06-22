@@ -2,7 +2,7 @@
     "0": {
         "clave": "0",
         "nombre": "ScriptWeb",
-        "icono": "./img/proyectos/logoIconSinFondo.webp",
+        "icono": "img/proyectos/logoiconsinfondo.webp",
         "pagina": "http://scriptweb-p.000webhostapp.com/",
         "github": "https://github.com/lenin2499/ScriptWeb_page",
         "imagen1": "img/proyectos/scriptweb2.webp",
