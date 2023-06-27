@@ -214,8 +214,19 @@ nav.scrolling {
     z-index: 1;
 }
 
-.skill__base:hover {
-    transform: scale(1.2);
+.skill__base:hover .skill__base__color {
+    animation: rotate-animation 3s infinite 
+}
+@keyframes rotate-animation {
+	0% {
+		transform: rotate(0deg);
+    }
+    /* 50% {
+		transform: rotate(180deg);
+	} */
+	100% {
+		transform: rotate(360deg);
+	}
 }
 
 .skill__base__icon {
@@ -382,6 +393,29 @@ nav.scrolling {
 
 /* -------------------------------------------PORTAFOLIO--------------------------------------------------- */
 
+.nivel__conocimientos {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: auto;
+    justify-content:flex-start;
+}
+
+.nivel__conocimientos .nivel__elementos {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 5px;
+}
+
+.nivel__conocimientos .nivel__color {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000;
+    margin-right: 10px;
+}
+
+/* _____________________________________________ */
+
 .imagen-icon-portafolio {
     width: 80px;
     height: 80px;
@@ -432,8 +466,7 @@ nav.scrolling {
   }
 
   .card:hover {
-    transition: 0.7s;
-    transform: scale(1.02);
+    transform: scale(1.05);
   }
   
   .card span {
@@ -509,7 +542,7 @@ nav.scrolling {
 }
 
 .icon-svg-portafolio {
-    transition: 0.7s;
+    /* transition: 0.7s; */
     width: 30px;
     height: 30px;
     margin-right: 10px;
@@ -517,7 +550,7 @@ nav.scrolling {
 }
 
 a .icon-svg-portafolio:hover {
-    transition: 0.7s;
+    /* transition: 1s; */
     transform: scale(1.2);
 }
 
