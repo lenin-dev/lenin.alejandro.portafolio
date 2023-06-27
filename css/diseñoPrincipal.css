@@ -293,6 +293,7 @@ nav.scrolling {
     width: max-content;
     height: auto;
     z-index: 3;
+    font-size: 15px;
 }
 
 .experto__text {
