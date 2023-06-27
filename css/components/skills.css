@@ -1,0 +1,62 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: bisque;
+    width: 100%;
+}
+
+.skill__base {
+    display: flex;      
+    justify-content: center;             
+    align-items: center;
+    position: relative;
+}
+
+.skill__base__icon {
+    width: 60px;             
+    height: 60px;
+    border: 8px solid rgb(255, 255, 255);                          
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;   
+}
+
+.skill__base__color {
+    width: 60px;            
+    height: 60px;
+    border: 7px solid #fff;
+    border-radius: 50%;
+    position: absolute; /* Añadido para solución */
+}
+
+.experto {
+    border-left-color: #e90e0e;
+    border-top-color: #e90e0e;
+    border-bottom-color: #e90e0e;
+    border-right-color: #e90e0e;
+}
+
+.avanzado {
+    border-left-color: #e9700e;
+    border-top-color: #e9700e;
+    border-bottom-color: #e9700e;
+}
+
+.intermedio {
+    border-left-color: #0ee93d;
+    border-top-color: #0ee93d;
+}
+
+.basico {
+    border-left-color: #0e86e9;
+}
+
+.skill__icon {
+    width: 40px;
+    height: 40px;
+}
