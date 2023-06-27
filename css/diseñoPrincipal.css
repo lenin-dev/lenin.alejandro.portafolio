@@ -210,6 +210,8 @@ nav.scrolling {
     align-items: center;
     position: relative;
     margin: 10px;
+    cursor: pointer;
+    z-index: 1;
 }
 
 .skill__base__icon {
@@ -267,8 +269,58 @@ nav.scrolling {
     width: 40px;
     height: 40px;
 }
+
+
+
+
+
+
+.pop__text {
+    transition: 7s;
+    display: none;
+}
+
+.skill__base:hover .pop__text {
+    display: block;
+    position: absolute;
+    bottom: 75px;
+}
+
+.skill__base .pop__text {
+    transition: 10s;
+    padding: 8px;
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+    width: max-content;
+    height: auto;
+    z-index: 3;
+}
+
+.experto__text {
+    background-color: #e90e0e;
+}
+
+.avanzado__text {
+    background-color: #e9700e;
+}
+
+.intermedio__text {
+    background-color: #cddb00;
+    color: #2b2b2b;
+}
+
+.basico__text {
+    background-color: #0e86e9;
+    color: #fafafa;
+}
+
+
+
+
+
+
 /* ________________________________________ */
-.custom-popover-basico {
+/* .custom-popover-basico {
     --bs-popover-max-width: 200px;
     --bs-popover-border-color: var(--bs-primary) !important;
     --bs-popover-header-bg: var(--bs-primary) !important;
@@ -301,7 +353,7 @@ nav.scrolling {
 
 .cont-svg-icon:hover {
     padding: 5px;
-}
+} */
 
 .flex-row-hobbies {
     width: 100%;
@@ -619,6 +671,9 @@ a .icon-svg-portafolio:hover {
         height: 100vh;
         width: 100%;
     }
+    .skill__base:hover .pop__text {
+        max-width: 250px;
+    }
 }
 
 @media (max-width: 1200px){
@@ -646,6 +701,9 @@ a .icon-svg-portafolio:hover {
         width: auto;
         font-size: 14px;
     }
+    .skill__base:hover .pop__text {
+        max-width: 250px;
+    }
 }
 
 @media (max-width: 992px){
@@ -672,6 +730,9 @@ a .icon-svg-portafolio:hover {
     .contenedor-contenido {
         width: auto;
         font-size: 14px;
+    }
+    .skill__base:hover .pop__text {
+        max-width: 300px;
     }
 }
 
@@ -703,6 +764,9 @@ a .icon-svg-portafolio:hover {
     .img-hobbie {
         width: 18rem;
         height: 10rem;
+    }
+    .skill__base:hover .pop__text {
+        max-width: 250px;
     }
 }
 
@@ -737,6 +801,9 @@ a .icon-svg-portafolio:hover {
         width: 13rem;
         height: 8rem;
     }
+    .skill__base:hover .pop__text {
+        max-width: 200px;
+    }
 }
 
 @media (max-width: 327px){
@@ -762,6 +829,9 @@ a .icon-svg-portafolio:hover {
     }
     .contenedor-contenido {
         display: none;
+    }
+    .skill__base:hover .pop__text {
+        max-width: 150px;
     }
 }
 
