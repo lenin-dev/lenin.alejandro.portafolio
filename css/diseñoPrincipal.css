@@ -214,6 +214,10 @@ nav.scrolling {
     z-index: 1;
 }
 
+.skill__base:hover {
+    transform: scale(1.2);
+}
+
 .skill__base__icon {
     width: 60px;             
     height: 60px;
@@ -269,12 +273,7 @@ nav.scrolling {
     width: 40px;
     height: 40px;
 }
-
-
-
-
-
-
+/* ___________________________ */
 .pop__text {
     transition: 7s;
     display: none;
@@ -314,46 +313,7 @@ nav.scrolling {
     color: #fafafa;
 }
 
-
-
-
-
-
 /* ________________________________________ */
-/* .custom-popover-basico {
-    --bs-popover-max-width: 200px;
-    --bs-popover-border-color: var(--bs-primary) !important;
-    --bs-popover-header-bg: var(--bs-primary) !important;
-    --bs-popover-header-color: var(--bs-white) !important;
-    --bs-popover-body-padding-x: 1rem;
-    --bs-popover-body-padding-y: .5rem;
-}
-.custom-popover-intermedio {
-    --bs-popover-max-width: 200px;
-    --bs-popover-border-color: var(--bs-warning) !important;
-    --bs-popover-header-bg: var(--bs-warning) !important;
-    --bs-popover-header-color: var(--bs-white) !important;
-    --bs-popover-body-padding-x: 1rem;
-    --bs-popover-body-padding-y: .5rem;
-}
-.custom-popover-alto {
-    --bs-popover-max-width: 200px;
-    --bs-popover-border-color: var(--bs-danger) !important;
-    --bs-popover-header-bg: var(--bs-danger) !important;
-    --bs-popover-header-color: var(--bs-white) !important;
-    --bs-popover-body-padding-x: 1rem;
-    --bs-popover-body-padding-y: .5rem;
-}
-
-.cont-svg-icon {
-    width: 50px;
-    height: 50px;
-    margin: 10px;
-}
-
-.cont-svg-icon:hover {
-    padding: 5px;
-} */
 
 .flex-row-hobbies {
     width: 100%;
@@ -557,7 +517,7 @@ nav.scrolling {
 
 a .icon-svg-portafolio:hover {
     transition: 0.7s;
-    transform: scale(0.75);
+    transform: scale(1.2);
 }
 
 
@@ -608,7 +568,7 @@ a .icon-svg-portafolio:hover {
 }
 
 .icon-svg-contacto svg:hover {
-    padding: 5px;
+    transform: scale(1.1);
 }
 
 
@@ -661,6 +621,12 @@ a .icon-svg-portafolio:hover {
 /* DISEÑO RESPONSIVE A TAMAÑOS DE PANTALLA */
 /* --------------------------------------- */
 /* DE MAYOR A MENOR TAMAÑO DE PANTALLA */
+
+@media (max-width: 2000px){
+    .skill__base:hover .pop__text {
+        max-width: 250px;
+    }
+}
 
 @media (max-width: 1400px){
     .img1 {
@@ -766,7 +732,7 @@ a .icon-svg-portafolio:hover {
         height: 10rem;
     }
     .skill__base:hover .pop__text {
-        max-width: 250px;
+        max-width: 160px;
     }
 }
 
@@ -802,7 +768,7 @@ a .icon-svg-portafolio:hover {
         height: 8rem;
     }
     .skill__base:hover .pop__text {
-        max-width: 200px;
+        max-width: 100px;
     }
 }
 
@@ -832,6 +798,7 @@ a .icon-svg-portafolio:hover {
     }
     .skill__base:hover .pop__text {
         max-width: 150px;
+
     }
 }
 
