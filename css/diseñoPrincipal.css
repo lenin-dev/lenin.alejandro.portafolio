@@ -38,6 +38,16 @@ nav.scrolling {
     padding: 10px 10px;
 }
 
+.nav__shadow {
+    transition-delay: 2s;
+}
+
+.nav__shadow:hover {
+    /* transition: 2s; */
+    text-shadow: 3px 3px 22px rgba(255, 255, 255, 1),2px 2px 24px rgba(14, 10, 125, 1);
+    transform: translateY(-2px);
+}
+
 
 /* -------------------------------------------PARTE DEL SLIDER----------------------------------------------- */
 
@@ -215,15 +225,12 @@ nav.scrolling {
 }
 
 .skill__base:hover .skill__base__color {
-    animation: rotate-animation 3s infinite 
+    animation: rotate-animation 2s infinite;
 }
 @keyframes rotate-animation {
 	0% {
 		transform: rotate(0deg);
     }
-    /* 50% {
-		transform: rotate(180deg);
-	} */
 	100% {
 		transform: rotate(360deg);
 	}
@@ -241,11 +248,12 @@ nav.scrolling {
 }
 
 .skill__base__color {
-    width: 60px;            
-    height: 60px;
-    border: 7px solid #fff;
+    transition: 2s;
+    width: 56px;            
+    height: 56px;
+    border: 5px solid #fff;
     border-radius: 50%;
-    position: absolute; /* Añadido para solución */
+    position: absolute;
 }
 
 .experto {
@@ -262,8 +270,8 @@ nav.scrolling {
 }
 
 .intermedio {
-    border-left-color: #dae90e;
-    border-top-color: #dae90e;
+    border-left-color: #12db00;
+    border-top-color: #12db00;
 }
 
 .basico {
@@ -285,26 +293,32 @@ nav.scrolling {
     height: 40px;
 }
 /* ___________________________ */
+
+@keyframes aparecer {
+    from { opacity: 0; }
+    to { opacity: 50; }
+}
+
 .pop__text {
-    transition: 7s;
     display: none;
-}
-
-.skill__base:hover .pop__text {
-    display: block;
-    position: absolute;
-    bottom: 75px;
-}
-
-.skill__base .pop__text {
-    transition: 10s;
     padding: 8px;
-    border: 3px solid #ffffff;
+    border: 2px solid #ffffff;
     border-radius: 20px;
     width: max-content;
     height: auto;
     z-index: 3;
     font-size: 15px;
+}
+
+.skill__base:hover .pop__text {
+    animation-name: aparecer;
+    animation-duration: 1s;
+    animation-direction: normal;
+    animation-timing-function: 1;
+
+    display: inline;
+    position: absolute;
+    bottom: 75px;
 }
 
 .experto__text {
@@ -316,7 +330,7 @@ nav.scrolling {
 }
 
 .intermedio__text {
-    background-color: #cddb00;
+    background-color: #12db00;
     color: #2b2b2b;
 }
 
@@ -351,6 +365,7 @@ nav.scrolling {
 }
 
 .lista {
+    transition: 1s;
     text-decoration: none;
     width: 300px;
     padding: 5px;
@@ -364,7 +379,8 @@ nav.scrolling {
 }
 
 .lista:hover {
-    padding: 10px;
+    transition: 1s;
+    transform: scale(1.02);
     background-color: #e9e9e9;
 }
 
@@ -388,7 +404,7 @@ nav.scrolling {
 
 .img-hobbie:hover {
     transition: 1s;
-    transform: scale(1.1);
+    transform: scale(1.02);
 }
 
 /* -------------------------------------------PORTAFOLIO--------------------------------------------------- */
@@ -411,6 +427,7 @@ nav.scrolling {
     width: 20px;
     height: 20px;
     border: 1px solid #000;
+    border-radius: 50%;
     margin-right: 10px;
 }
 
@@ -542,7 +559,7 @@ nav.scrolling {
 }
 
 .icon-svg-portafolio {
-    /* transition: 0.7s; */
+    transition: 1.5s;
     width: 30px;
     height: 30px;
     margin-right: 10px;
@@ -550,7 +567,7 @@ nav.scrolling {
 }
 
 a .icon-svg-portafolio:hover {
-    /* transition: 1s; */
+    transition: 1.5s;
     transform: scale(1.2);
 }
 
@@ -596,12 +613,14 @@ a .icon-svg-portafolio:hover {
 }
 
 .icon-svg-contacto svg {
+    transition: 1.5s;
     width: 30px;
     height: 30px;
     margin-bottom: 10px;
 }
 
 .icon-svg-contacto svg:hover {
+    transition: 1.5s;
     transform: scale(1.1);
 }
 
@@ -766,7 +785,7 @@ a .icon-svg-portafolio:hover {
         height: 10rem;
     }
     .skill__base:hover .pop__text {
-        max-width: 160px;
+        max-width: 140px;
     }
 }
 
@@ -831,7 +850,7 @@ a .icon-svg-portafolio:hover {
         display: none;
     }
     .skill__base:hover .pop__text {
-        max-width: 150px;
+        max-width: 120px;
 
     }
 }
