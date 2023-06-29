@@ -312,10 +312,7 @@ nav.scrolling {
 
 .skill__base:hover .pop__text {
     animation-name: aparecer;
-    animation-duration: 1s;
-    animation-direction: normal;
-    animation-timing-function: 1;
-
+    animation-duration: 0.5s;
     display: inline;
     position: absolute;
     bottom: 75px;
@@ -365,7 +362,6 @@ nav.scrolling {
 }
 
 .lista {
-    transition: 1s;
     text-decoration: none;
     width: 300px;
     padding: 5px;
@@ -379,7 +375,6 @@ nav.scrolling {
 }
 
 .lista:hover {
-    transition: 1s;
     transform: scale(1.02);
     background-color: #e9e9e9;
 }
@@ -393,7 +388,7 @@ nav.scrolling {
 }
 
 .img-hobbie {
-    transition: 1s;
+    transition: 0.5s;
     background-image: url(../img/imgs/nadine-shaabana-yspnamihdmi-unsplash.webp);
     background-repeat: no-repeat;
     background-position: center;
@@ -403,7 +398,7 @@ nav.scrolling {
 }
 
 .img-hobbie:hover {
-    transition: 1s;
+    transition: 0.5s;
     transform: scale(1.02);
 }
 
@@ -469,33 +464,32 @@ nav.scrolling {
     margin: 0 auto;
 }
 
-
-
 .card {
+    transition: 0.5s;
     width: 17em;
     height: 22.5em;
     margin-top: 20px;
     background: #303644 !important;
-    transition: 1s ease-in-out;
     clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
-  }
+}
 
-  .card:hover {
+.card:hover {
+    transition: 0.5s;
     transform: scale(1.05);
-  }
+}
   
-  .card span {
+.card span {
     font-weight: bold;
     color: white;
     text-align: center;
     display: block;
     padding-top: 1em;
     font-size: 1em;
-  }
+}
   
-  .card .info {
+.card .info {
     font-weight: 400;
     color: white;
     display: block;
@@ -504,33 +498,33 @@ nav.scrolling {
     font-size: 0.72em;
     margin: 1em;
     margin-top: 1em;
-  }
+}
   
-  .card .img {
+.card .img {
     width: 4.8em;
     height: 4.8em;
     background: white;
     border-radius: 15px;
     margin: auto;
     margin-top: 1.7em;
-  }
+}
   
-  .card .share {
+.card .share {
     text-align: center;
     margin-top: 1.0em;
     margin-bottom: 1.0em;
-  }
+}
   
-  .card a {
+.card a {
     color: white;
     transition: .4s ease-in-out;
-  }
+}
   
-  .card a:hover {
+.card a:hover {
     color: rgb(36, 116, 221);
-  }
+}
   
-  .card button {
+.card button {
     padding: 0.4em 0.9em;
     display: block;
     margin: auto;
@@ -542,12 +536,12 @@ nav.scrolling {
     background: #ffffff;
     color: rgb(0, 0, 0);
     transition: .4s ease-in-out;
-  }
+}
   
-  .card button:hover {
+.card button:hover {
     background: rgb(36, 116, 221);
     color: white;
-  }
+}
 
   /* modal - carusel */
 .fondo-boton {
@@ -559,7 +553,7 @@ nav.scrolling {
 }
 
 .icon-svg-portafolio {
-    transition: 1.5s;
+    transition: 0.5s;
     width: 30px;
     height: 30px;
     margin-right: 10px;
@@ -567,8 +561,8 @@ nav.scrolling {
 }
 
 a .icon-svg-portafolio:hover {
-    transition: 1.5s;
-    transform: scale(1.2);
+    transition: 0.5s;
+    transform: scale(1.1);
 }
 
 
@@ -608,19 +602,25 @@ a .icon-svg-portafolio:hover {
 }
 
 .iconos-footer {
-    width: 110px;
-    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .icon-svg-contacto svg {
-    transition: 1.5s;
+    transition: 0.5s;
     width: 30px;
     height: 30px;
-    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 .icon-svg-contacto svg:hover {
-    transition: 1.5s;
+    transition: 0.5s;
     transform: scale(1.1);
 }
 
