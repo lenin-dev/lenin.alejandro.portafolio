@@ -47,6 +47,6 @@
         "github": "https://github.com/lenin-dev/proyecto_practico.git",
         "imagen1": "img/proyectos/principal.webp",
         "imagen2": "img/proyectos/carrito.webp",
-        "description": "Proyecto consumiendo una FAKE API con javascript fetch, manejo del DOOM con js puro y utilizando diseño responsivo con flexbox."
+        "description": "Proyecto todavía no terminado, consumiendo una FAKE API con javascript fetch, manejo del DOOM con js puro y utilizando diseño responsivo con flexbox."
     }
 }
