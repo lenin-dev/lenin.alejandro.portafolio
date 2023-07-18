@@ -38,5 +38,15 @@
         "imagen1": "img/proyectos/editor-texto-principal.webp",
         "imagen2": "img/proyectos/mostrar-texto.webp",
         "description": "Proyecto realizado para crear una API REST sencilla editando archivos .txt con html, css, js (XMLHTTpRequest) y php."
+    },
+    "4": {
+        "clave": "4",
+        "nombre": "Proyecto consumiendo una API",
+        "icono": "img/icon/iconcasa.png",
+        "pagina": "https://lenin-dev.github.io/proyecto_practico/",
+        "github": "https://github.com/lenin-dev/proyecto_practico.git",
+        "imagen1": "img/proyectos/principal.webp",
+        "imagen2": "img/proyectos/carrito.webp",
+        "description": "Proyecto consumiendo una FAKE API con javascript fetch, manejo del DOOM con js puro y utilizando diseño responsivo con flexbox."
     }
 }
