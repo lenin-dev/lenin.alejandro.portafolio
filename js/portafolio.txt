@@ -27,7 +27,7 @@
         "github": "https://github.com/lenin-dev/portafolio-Proyecto-Session",
         "imagen1": "img/proyectos/capturaLoginAndRegistro.webp",
         "imagen2": "img/proyectos/CapturaPrincipal.webp",
-        "description": "Página echa como medio para reforzar mi de backend haciendo una aplicación web donde administra usuarios con métodos CRUD, utilizando html, css, js, php y mysql"
+        "description": "Página hecha como medio para reforzar mis conocimientos en el backend haciendo una aplicación web donde administra usuarios con métodos CRUD, utilizando html, css, js, php y mysql"
     },
     "3": {
         "clave": "3",
@@ -37,10 +37,10 @@
         "github": "https://github.com/lenin-dev/portafolio-Editor-texto",
         "imagen1": "img/proyectos/editor-texto-principal.webp",
         "imagen2": "img/proyectos/mostrar-texto.webp",
-        "description": "Proyecto realizado para crear una API REST sencilla editando archivos .txt con html, css, js (XMLHTTpRequest) y php."
+        "description": "Proyecto básico manejador de archivos de texto."
     },
     "4": {
-        "clave": "4",
+        "clave": "",
         "nombre": "Proyecto consumiendo una API",
         "icono": "img/icon/iconcasa.png",
         "pagina": "https://lenin-dev.github.io/proyecto_practico/",
@@ -48,5 +48,15 @@
         "imagen1": "img/proyectos/principal.webp",
         "imagen2": "img/proyectos/carrito.webp",
         "description": "Proyecto todavía no terminado, consumiendo una FAKE API con javascript fetch, manejo del DOOM con js puro y utilizando diseño responsivo con flexbox."
+    },
+    "5": {
+        "clave": "5",
+        "nombre": "Proyecto creando una api para una financiera",
+        "icono": "img/icon/budget.png",
+        "pagina": "",
+        "github": "",
+        "imagen1": "img/proyectos/codigo_de_clases.png",
+        "imagen2": "img/proyectos/codigo_de_endpoints.png",
+        "description": "Creando una api para el manejo de información, seguridad integral de los datos, procesos automatizados, base de datos relacional con MYSQL, manejo de conexiones con un pooling, endpoints para cada proceso, inicios de sesión con JWT. usando NODEJS, EXPRESS y otros frameworks. (Es un proyecto real al que no puedo mostrar una demo)"
     }
 }
