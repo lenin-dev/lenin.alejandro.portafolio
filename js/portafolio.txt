@@ -31,23 +31,23 @@
     },
     "3": {
         "clave": "3",
-        "nombre": "Proyecto editor de archivos .txt",
+        "nombre": "Proyectos con soluciones simples",
         "icono": "img/proyectos/txt.webp",
-        "pagina": "http://editortexto.000webhostapp.com/",
-        "github": "https://github.com/lenin-dev/portafolio-Editor-texto",
-        "imagen1": "img/proyectos/editor-texto-principal.webp",
-        "imagen2": "img/proyectos/mostrar-texto.webp",
-        "description": "Proyecto básico manejador de archivos de texto."
+        "pagina": "",
+        "github": "",
+        "imagen1": "",
+        "imagen2": "",
+        "description": "Mini proyectos realizados: Api para almacenar y gestionar asistencias de un instituto, un extractor de informacion de un archivo excel y script de respaldos de base de datos automaticos."
     },
     "4": {
-        "clave": "",
-        "nombre": "Proyecto consumiendo una API",
-        "icono": "img/icon/iconcasa.png",
-        "pagina": "https://lenin-dev.github.io/proyecto_practico/",
-        "github": "https://github.com/lenin-dev/proyecto_practico.git",
-        "imagen1": "img/proyectos/principal.webp",
-        "imagen2": "img/proyectos/carrito.webp",
-        "description": "Proyecto todavía no terminado, consumiendo una FAKE API con javascript fetch, manejo del DOOM con js puro y utilizando diseño responsivo con flexbox."
+        "clave": "4",
+        "nombre": "Proyecto creando un chat en tiempo real",
+        "icono": "img/icon/chats.png",
+        "pagina": "",
+        "github": "https://github.com/lenin-dev/mini_recursos/tree/dev",
+        "imagen1": "img/proyectos/chats.webp",
+        "imagen2": "img/proyectos/mensajes.webp",
+        "description": "Creacion de un chat en tiempo real con html, css, js vanilla, nodejs y socket.io. (Es un proyecto real al que no puedo mostrar una demo)"
     },
     "5": {
         "clave": "5",
